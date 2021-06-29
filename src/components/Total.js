@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
 
 const Total = () => {
     const classes = useStyles()
+    /* eslint-disable no-unused-vars */
     const [{ basket }, dispatch] = useStateValue();
 
     return (
