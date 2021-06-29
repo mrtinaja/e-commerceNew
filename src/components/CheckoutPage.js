@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
 
 const CheckoutPage = () => {
     const classes = useStyles();
+    /* eslint-disable no-unused-vars */
     const [{ basket }, dispatch] = useStateValue();
 
 
