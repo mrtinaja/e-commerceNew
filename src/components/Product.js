@@ -52,6 +52,7 @@ export default function Product({
   product: { id, name, productType, image, price, rating, description },
 }) {
   const classes = useStyles();
+    // eslint-disable-next-line no-unused-vars
   const [{ basket }, dispatch] = useStateValue();
   const [expanded, setExpanded] = useState(false);
 
