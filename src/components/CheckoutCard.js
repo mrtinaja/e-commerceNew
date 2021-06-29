@@ -52,6 +52,7 @@ export default function CheckoutCard({
 }) {
   const classes = useStyles();
   const [expanded, setExpanded] = useState(false);
+  /* eslint-disable no-unused-vars */
   const [{ basket }, dispatch] = useStateValue();
 
 
