@@ -15,6 +15,7 @@ import Checkout from './components/Checkoutform/Checkout';
 
 
 function App() {
+    // eslint-disable-next-line no-unused-vars
   const [{ user }, dispatch] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
